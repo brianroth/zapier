@@ -1,0 +1,21 @@
+{
+  "name": "reachlocal_zapier",
+  "version": "1.0.0",
+  "description": "ReachLocal Zapier App",
+  "author": "apiservices@reachlocal.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --recursive"
+  },
+  "engines": {
+    "node": "6.10.3",
+    "npm": ">=3.10.10"
+  },
+  "dependencies": {
+    "zapier-platform-core": "6.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.0"
+  }
+}
